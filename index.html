@@ -5,10 +5,11 @@
   </head>
   <body>
     <!-- Main app mounts here -->
-    <div id="root"></div>
-    <!-- loading the axios HTTP library -->
+    <!-- The loading text will be overwritten on first "draw" -->
+    <div id="root"><p>Loading...</p></div>
+    <!-- loading the axios HTTP library using the unpkg distribution network -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- loading custom coinpaprika library -->
+    <!-- loading custom coinpaprika library (copied/modified from github) -->
     <script src="coinpaprika.js"></script>
     <!-- loading our logic -->
     <script src="main.js"></script>
