@@ -6,8 +6,11 @@
   <body>
     <!-- Main app mounts here -->
     <div id="root"></div>
-    <!--main.js requires financial-api.js, so import financial-api.js first -->
-    <script src="financial-api.js"></script>
+    <!-- loading the axios HTTP library -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- loading custom coinpaprika library -->
+    <script src="coinpaprika.js"></script>
+    <!-- loading our logic -->
     <script src="main.js"></script>
   </body>
 </html>
